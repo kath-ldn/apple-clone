@@ -34,9 +34,6 @@ body{
     width: 105px;
     height: 36px;
     background-color: none;
-   /* border-top: 0.5px #666 solid;
-    border-bottom: 0.5px #666 solid;
-    border-right: 0.5px #5e5e5e solid; */
     border-right: 1px rgb(94,94,94) solid;
 }
 
@@ -146,14 +143,9 @@ body{
     background-position: center 101.5%;
 }
 
-
 .nav-end {
     width: 130px;
     border-radius: 0 4px 4px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
     background-image:
     linear-gradient(
     to right,
@@ -162,6 +154,26 @@ body{
     linear-gradient(
             rgb(94,94,94) 1%, rgb(128,128,128) 5%, rgb(112,112,112) 50%, rgb(102,102,102) 50%, rgb(94,94,94)60%, rgb(112,112,112) 97%, rgb(94,94,94) 100%
     );
+}
+
+.nav-overlay{
+    width: 105px;
+    height: 36px;
+    border-radius: 0 4px 4px 0;
+}
+
+.nav-end-overlay{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.nav-overlay:hover{
+    background-color:  black;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 input{
