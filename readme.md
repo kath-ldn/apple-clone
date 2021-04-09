@@ -1,13 +1,39 @@
-# Clone of old Apple Website
-Original address: https://web.archive.org/web/20140301004610/http://www.apple.com/
-All content may be copyright Apple - this is just for educational purposes.
+# (Old) Apple Website Clone
 
-## To note
-- Uses only HTML and CSS - so no JS interactivity.
-- I did as much of the page as possible without inspecting the detail of specific elements/styles - so it is not a perfect copy, but reflects how I could do things without copying.
+## About
 
-## Known areas to improve
-- Original gradient is a bit sharper than mine.
-- Not responsive - to add media queries/utilise min & max to make responsive.
-- Links are mocked.
-- Images (particularly nav) are not as crisp as original site.
+This is a clone of an [old (2014) version of the Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/). The purpose of this was to practice using gradients, as part of [The Odin Project HTML and CSS Module](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/building-with-backgrounds-and-gradients).
+
+### Live Demo
+
+[GitHub Pages](https://kath-ldn.github.io/apple-clone/).
+
+### Built with
+
+HTML & CSS.
+
+## Prerequisites & Installation
+
+No special requirements.
+
+## Roadmap
+
+None planned.
+
+### Known Issues
+
+* As usual, I did as much of this as possible without inspecting the detail of specific elements/styles - so it is not a carbon copy, but reflects how I could do things without copying and pasting.
+
+* The original website is not responsive so neither is this one.
+
+* The gradient in the original is a bit sharper than mine - again because I didn't copy and paste.
+
+* Links etc. are mocked.
+
+## Acknowledgements
+
+* Apple
+* GitHub pages
+* CSS tricks
+
+Content is not my own and may be subject to copyright.
